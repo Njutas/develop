@@ -18,3 +18,7 @@ or try a live example: https://jsbin.com/gejugat/edit?html,output
   - Test player on at least two browsers and specify in README.md which version and browser it was.
   - Additional features are welcome and bonuses are available.
   - To pass this lab, you have to complete at least two points from the requirement list.
+
+  # Testavimo aplinkos
+  - Chrome. Versija: 144.0.7559.133
+  - Microsoft edge. Versija: 145.0.3800.58
