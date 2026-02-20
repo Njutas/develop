@@ -21,7 +21,59 @@
         <button type="button" onclick="nextVideo()">Next Video</button>
         <button type="button" onclick="shuffleVideo()">Shuffle</button>
     </div>
+    <style>
+      body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    font-family: sans-serif;
+  }
+
+  .video-js {
+    border: 2px solid #1b263b;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  div[style*="margin-top"] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  button {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 8px;
+  
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  
+  border-radius: 8px;
+  
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #e0e0e0;
+  transform: translateY(0px);
+}
+
+    </style>
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 
     <script>
